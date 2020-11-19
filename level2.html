@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="lvl2.css" />
+  </head>
+  <body>
+    <div class="menu">
+      <ul class="menu-list"></ul>
+    </div>
+    <div class="title">
+      <h1>ZADANIE NA 30!</h1>
+    </div>
+    <div class="rules">
+      <p class="p-text">
+        Witaj na poziomie 2! Na wstępie obejrzyj film poniżej, i daj się porwać
+        magii.
+      </p>
+    </div>
+    <div class="video">
+      <iframe
+        width="800"
+        height="450"
+        src="https://www.youtube.com/embed/RZmS_BTwPEU"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <div class="watched">
+      <button class="reveal">Obejrzałam</button>
+    </div>
+    <div class="wrapper">
+      <div class="taks">
+        <p class="p-text">
+          W pierwszym polu tekstowym wpisz ilość liter, która odpowiada karcie, którą wybrałaś z Dawidem Miedzianepole.
+        </p>
+        <p class="p-text">
+          W drugim polu musisz się bardziej popisać:
+        </p>
+        <ol>
+          <li class="list-element">Weź swój rok urodzenia i podziel go przez 5</li>
+          <li class="list-element">Wynik działania powyżej podziel przez 2</li>
+          <li class="list-element">Do otrzymanej liczby dodaj 1</li>
+          <li class="list-element">Wynik podziel przez 5</li>
+          <li class="list-element">Dodaj do wyniku 1</li>
+          <li class="list-element">Od otrzymanej sumy odejmij swój wiek</li>
+          <li class="list-element">Zsumuj cyfry otrzymanej liczby</li>
+          <li class="list-element">Wynik wpisz do drugiego pola tekstowego</li>
+        </ol>
+        <p class="p-text">
+          Kolejne zadanie jest prostsze. Odpowiedz na pytanie: Ile brwi ma Frida Kahlo?
+        </p>
+        <p class="p-text">
+          Ostatnią cyfrę zdradzi Ci lustereczko na parapecie...
+        </p>
+      </div>
+    </div>
+    <div class="form">
+      <form>
+        <input type="text" name="video" class="checkem" placeholder="*" required />
+        <input type="text" name="math" class="checkem" placeholder="*" required />
+        <input type="text" name="frida" class="checkem" placeholder="*" required />
+        <input type="text" name="mirror" class="checkem" placeholder="*" required />
+        <button type="button" class="butSub">Zatwierdź</button>
+      </form>
+    </div>
+    <div class="win"></div>
+    <script src="level2.js"></script>
+  </body>
+</html>

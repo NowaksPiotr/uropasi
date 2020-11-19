@@ -1,0 +1,65 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+body{
+    padding: 0 5% 0 5%;
+    background-image: url(./assets/bcg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.video{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.watched{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1.5em 0 1.5em 0;
+}
+.reveal, .butSub{
+    padding: .5em;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: .8s;
+}
+.reveal:hover, .butSub:hover{
+    background-color: rgba(255,255,255, .7);
+    transition: .8s;
+
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255,255,255, .7);
+    margin: 0 0 1.5em 0;
+    opacity: 0;
+}
+.wrapper-rev{
+    opacity: 1;
+    transition: 5s;
+}
+.rules, .form, .win{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255,255,255, .7);
+    margin: 0 0 1.5em 0;
+    transition: 2s;
+}
+.form{
+    background-color: transparent;
+}
+.checkem{
+    width: 1em;
+    height: 2em;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
