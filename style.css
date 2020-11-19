@@ -91,16 +91,13 @@ body{
     height: 3em;
     background-color: gray;
     border-radius: 50%;
-    position: absolute;
-    top: 80%;
-    left: -50%;
 }
 .rotate{
-    position: absolute;
-    top: 60%;
-    left: -50%;
-    width: 5em;
-    height: 3em;
+    grid-column: 1/4;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    width: 100%;
 }
 .left{
     width: 100%;
